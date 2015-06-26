@@ -266,7 +266,7 @@ public class StuFuncPortalFrame extends JFrame {
                     .getTableCellRendererComponent(myTable,
                             column.getIdentifier(), false, false, -1, col)
                     .getPreferredSize().getWidth();
-            for (int row = 0; row < rowCount; row++) {
+            for (int row = 1; row < rowCount; row++) {
                 int preferedWidth = (int) myTable.getCellRenderer(row, col)
                         .getTableCellRendererComponent(myTable,
                                 myTable.getValueAt(row, col), false, false,
