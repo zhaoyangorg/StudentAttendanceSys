@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="StudentAttendanceSys:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/StudentAttendanceSys_jar</output-path>
+    <root id="archive" name="StudentAttendanceSys.jar">
+      <element id="module-output" name="StudentAttendanceSys" />
+      <element id="extracted-dir" path="G:/原先项目/caishichang/WebContent/WEB-INF/lib/mysql-connector-java-5.1.0-bin.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
