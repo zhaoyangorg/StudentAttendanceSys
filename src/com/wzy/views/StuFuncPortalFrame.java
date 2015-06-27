@@ -25,7 +25,7 @@ public class StuFuncPortalFrame extends JFrame {
     private String stuPwd;
     private List resultAll, teachersInfo, coursesinfo;
     JPanel JPane101, JPane102, JPanel03, JPanel04, p1, p2;
-    JLabel StudentID, StuPicture, courseId;
+    JLabel studentID, stuPicture, courseId;
     JButton Button1, Button2, Button3, Button4, Button5, Button6;
     JTextField courseIdTextField;
     JTable resultJTable;
@@ -48,18 +48,18 @@ public class StuFuncPortalFrame extends JFrame {
         JPane101 = new JPanel();
         Integer it = new Integer(stuId);
         String str = it.toString();
-        StudentID = new JLabel(str);
+        studentID = new JLabel(str);
         p1 = new JPanel();
         JPane101.setLayout(new FlowLayout(FlowLayout.CENTER));
-        StuPicture = new JLabel();
-        StuPicture.setSize(150, 135);
+        stuPicture = new JLabel();
+        stuPicture.setSize(150, 135);
         ImageIcon image = new ImageIcon(this.getClass().getResource("/images/005.jpg"));
         image.setImage(image.getImage().getScaledInstance(
-                StuPicture.getWidth(), StuPicture.getHeight(),
+                stuPicture.getWidth(), stuPicture.getHeight(),
                 Image.SCALE_DEFAULT));
-        StuPicture.setIcon(image);
-        JPane101.add(StuPicture);
-        JPane101.add(StudentID);
+        stuPicture.setIcon(image);
+        JPane101.add(stuPicture);
+        JPane101.add(studentID);
         p1.setBorder(BorderFactory.createEtchedBorder());
         p1.setBounds(0, 0, 155, 180);
         p1.setLayout(null);
@@ -251,6 +251,10 @@ public class StuFuncPortalFrame extends JFrame {
         setResizable(false);
 
 
+    }
+
+    public JLabel getJLabel(){
+        return stuPicture;
     }
 
 

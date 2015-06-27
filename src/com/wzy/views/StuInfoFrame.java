@@ -3,9 +3,11 @@ package com.wzy.views;
 import com.wzy.bean.StudentInfo;
 
 import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
 import java.util.List;
 
 /**
@@ -100,7 +102,7 @@ public class StuInfoFrame extends JFrame {
         infoJLabel = new JLabel("个人照片");
         picJLabel = new JLabel();
         picJLabel.setSize(140,125);
-        ImageIcon image = new ImageIcon(this.getClass().getResource("/images/002.jpg"));
+        ImageIcon image = new ImageIcon(this.getClass().getResource("/images/005.jpg"));
         image.setImage(image.getImage().getScaledInstance(
                 picJLabel.getWidth(),picJLabel.getHeight(),
                 Image.SCALE_DEFAULT));
@@ -112,6 +114,34 @@ public class StuInfoFrame extends JFrame {
         JPanel1.add(JPanel002);
 
         add(JPanel1,"Center");
+
+        //添加事件
+        updateJButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                EventQueue.invokeLater(new Runnable() {
+                    @Override
+                    public void run() {
+                        JFileChooser chooser = new JFileChooser();
+                        chooser.setFileFilter(new FileNameExtensionFilter("image files","jpg","jpeg","gif"));
+                        chooser.setCurrentDirectory(new File("."));
+                        int result = chooser.showOpenDialog(StuInfoFrame.this);
+                        if(result == JFileChooser.APPROVE_OPTION){
+                            String fileName = chooser.getSelectedFile().getPath();
+                            ImageIcon image = new ImageIcon(fileName);
+                            image.setImage(image.getImage().getScaledInstance(
+                                    picJLabel.getWidth(),picJLabel.getHeight(),
+                                    Image.SCALE_DEFAULT));
+                            picJLabel.setIcon(image);
+                            sfpFrame.getJLabel().setIcon(image);
+                        }
+
+                    }
+                });
+
+            }
+        });
+
 
         //JPanel02
         JPanel02 = new JPanel();
