@@ -7,8 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b865c-2cc2-4e39-b3f3-e7ca9feff50e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wzy/views/StuFuncPortalFrame.java" afterPath="$PROJECT_DIR$/src/com/wzy/views/StuFuncPortalFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wzy/views/StuInfoFrame.java" afterPath="$PROJECT_DIR$/src/com/wzy/views/StuInfoFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StudentAttendanceSys.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +41,8 @@
       <file leaf-file-name="TeacherInfoFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/wzy/views/TeacherInfoFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6221663" vertical-offset="0" max-vertical-offset="2014">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.67002517" vertical-offset="513" max-vertical-offset="2014">
+              <caret line="41" column="26" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,7 +53,7 @@
       <file leaf-file-name="StuUpdateEmailFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wzy/views/StuUpdateEmailFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1084" max-vertical-offset="1938">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1330" max-vertical-offset="2166">
               <caret line="70" column="36" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -66,7 +65,7 @@
       <file leaf-file-name="StuFuncPortalFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wzy/views/StuFuncPortalFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3859" max-vertical-offset="4484">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4541" max-vertical-offset="5206">
               <caret line="256" column="25" selection-start-line="256" selection-start-column="15" selection-end-line="256" selection-end-column="25" />
               <folding>
                 <element signature="e#9597#9598#0" expanded="true" />
@@ -79,7 +78,7 @@
       <file leaf-file-name="StuInfoFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wzy/views/StuInfoFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2110" max-vertical-offset="3363">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2413" max-vertical-offset="3705">
               <caret line="135" column="44" selection-start-line="135" selection-start-column="44" selection-end-line="135" selection-end-column="44" />
               <folding />
             </state>
@@ -102,7 +101,6 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="2052" max-vertical-offset="4503">
               <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
               <folding>
-                <element signature="e#7072#7084#0" expanded="true" />
                 <marker date="1435307258950" expanded="true" signature="673:817" placeholder="select * fro..studentinfo..." />
                 <marker date="1435307258950" expanded="true" signature="1678:1964" placeholder="SELECT recor..classinfo..." />
                 <marker date="1435307258950" expanded="true" signature="3186:3244" placeholder="SELECT * fro..studentinfo..." />
@@ -128,7 +126,7 @@
       <file leaf-file-name="MainLoginFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wzy/views/MainLoginFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="1539">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1254" max-vertical-offset="1767">
               <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
               <folding />
             </state>
@@ -138,7 +136,7 @@
       <file leaf-file-name="StuLoginFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wzy/views/StuLoginFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2185" max-vertical-offset="2356">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2451" max-vertical-offset="2622">
               <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -221,6 +219,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -343,7 +342,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -700,6 +698,7 @@
       <workItem from="1435312478106" duration="4911000" />
       <workItem from="1435319100784" duration="1016000" />
       <workItem from="1435365016448" duration="6950000" />
+      <workItem from="1435470941683" duration="1514000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1435319590428</created>
@@ -711,7 +710,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97620000" />
+    <option name="totallyTimeSpent" value="99134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -729,7 +728,6 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -744,6 +742,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1137,7 +1136,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34172663" vertical-offset="0" max-vertical-offset="4788">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,7 +1188,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2052" max-vertical-offset="4503">
           <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding>
-            <element signature="e#7072#7084#0" expanded="true" />
             <marker date="1435307258950" expanded="true" signature="673:817" placeholder="select * fro..studentinfo..." />
             <marker date="1435307258950" expanded="true" signature="1678:1964" placeholder="SELECT recor..classinfo..." />
             <marker date="1435307258950" expanded="true" signature="3186:3244" placeholder="SELECT * fro..studentinfo..." />
@@ -1223,8 +1220,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wzy/views/TeacherInfoFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6221663" vertical-offset="0" max-vertical-offset="2014">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.67002517" vertical-offset="513" max-vertical-offset="2014">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
